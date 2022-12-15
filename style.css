@@ -1,44 +1,76 @@
 body {
-  margin: 5px;
+  /*margin: 5px;*/
   font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
   align-items: center;
-
+  height: 180px;
   background-color: #cf5f75;
+  padding-right: 4%;
 }
 
+/*  Carol */
+.cabecalho{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1b3bc;
+  height: 680px;
+  padding-bottom: 4%;
+}
+.apresentacao{
+  max-width: 520px;
+  max-height: 270px;
+  padding-left: 10%;
+}
+.img-cabecalho{
+  width: 545px;
+  height: 530px;
+}
+.depoimentos{
+  display: flex;
+  flex-direction: row;
+}
+.p-cinza{
+  margin:5%;
+  max-width: 320px;
+  max-height: 310px;
+  background-color: #E0DEDE;
+}
+.mulher-loira{
+  max-width: 210px;
+  max-height: 210px;
+}
+/*  Carol */
 a {
   margin: 10px;
   text-decoration: none;
   font-size: 20px;
 }
-
 h1 {
-  color: rgba(209, 57, 87, 1);
-  text-align: center;
+  color: #48000E;
+  font-size: 48px;
+  /*text-align: center;*/
   text-decoration: underline;
 }
-
 h2 {
   color: rgba(209, 57, 87, 1);
-  text-align: center;
+  /*text-align: center;*/
   text-decoration: underline;
 }
-
 main {
   display: flex;
-  margin: 10px;
-  background-color: #e1b3bc;
+  flex-direction: column;
+  /*margin: 10px;*/
+  /*background-color: #e1b3bc;*/
 }
 
 footer {
   background-color: #cf5f75;
   display: flex;
-  justify-content: center;
 }
 
 ul {
@@ -56,7 +88,6 @@ p {
   background-color: #cf5f75;
   color: #ffffff;
   border-radius: 4px;
-
   margin: 10px;
 }
 .insta {
@@ -64,10 +95,12 @@ p {
 }
 
 #servicos {
-  display: flex;
+  /*display: flex;*/
+  text-align: center;
+  align-items: center;
   justify-content: center;
   margin-bottom: 5px;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
 }
 
 .servicos {
@@ -75,17 +108,22 @@ p {
 }
 #contato {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  margin: 10px;
+  height: 510px;
+  max-width: auto;
+  /*margin: 10px;*/
+  background-color: #E1B3BC;
+}
+.branca{
+  margin: 5%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 1340px;
 }
 
-form {
-  /* Apenas para centralizar o form na página */
-  margin: 0 auto;
-  width: 500px;
-  height: 500px;
-  /* Para ver as bordas do formulário */
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-}
+
+
