@@ -1,0 +1,91 @@
+body {
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #cf5f75;
+}
+
+a {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+h1 {
+  color: rgba(209, 57, 87, 1);
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  color: rgba(209, 57, 87, 1);
+  text-align: center;
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  margin: 10px;
+  background-color: #e1b3bc;
+}
+
+footer {
+  background-color: #cf5f75;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+}
+li {
+  margin: 10px;
+}
+p {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.saiba-mais {
+  background-color: #cf5f75;
+  color: #ffffff;
+  border-radius: 4px;
+
+  margin: 10px;
+}
+.insta {
+  margin: 5px;
+}
+
+#servicos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+}
+
+.servicos {
+  margin: 10px;
+}
+#contato {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+form {
+  /* Apenas para centralizar o form na página */
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  /* Para ver as bordas do formulário */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
